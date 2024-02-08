@@ -4,7 +4,7 @@ Provide instructions on how to install and set up your Rails project locally. In
 
 ```bash
 # Clone the repository
-git clone https://github.com/your_username/your_project.git
+git clone https://github.com/Bahubaliak/task-management-backend.git
 
 # Navigate to the project directory
 cd your_project
