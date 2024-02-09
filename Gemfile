@@ -19,7 +19,6 @@ gem "puma", "~> 5.0"
 
 gem 'pry', '~> 0.14.2'
 
-gem 'railties'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
