@@ -1,7 +1,7 @@
 databases:
   - name: task-management
     databaseName: task_management_production
-    user: task-management
+    user: task_management
     plan: free
 
 services:
