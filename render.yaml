@@ -1,7 +1,7 @@
 databases:
   - name: task-management
-    databaseName: task_management_production
-    user: task_management
+    databaseName: task-management
+    user: mysite
     plan: free
 
 services:
@@ -15,7 +15,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: task_management_production
+          name: task-management
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
